@@ -1,0 +1,144 @@
+/*
+body {
+	font-family: "Poppins", sans-serif;
+}
+*/
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype'),
+  	   url('../assets/fonts/Poppins-Medium.ttf') format('truetype'),
+  	   url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype'),
+  	   url('../assets/fonts/Poppins-Thin.ttf') format('truetype'),
+ 	   url('../assets/fonts/Poppins-Regular.ttf') format('truetype'),
+ 	   url('../assets/fonts/Poppins-ExtraBold.ttf') format('truetype'),
+ 	   url('../assets/fonts/Poppins-Light.ttf') format('truetype')
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7C0EBD;
+  border-radius: 5px;
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: indigo transparent;
+}
+
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+	margin: 25px 10px 25px 10px;
+}
+
+.container > div:first-child {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*#popup-header-title {
+	font-size: 15px;
+	font-weight: bold;
+}*/
+
+.clear {
+	border: none;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	background-color: #FA0B0B;
+	font-family: "Poppins", sans-serif;
+}
+
+.clear:hover {
+	background-color: #c43a08;
+	transition-duration: 200ms;
+}
+
+.listContainer {
+	margin: 20px 0 20px 0;
+	/*padding-right: 10px;*/
+	height: 320px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.savedTab {
+	display: flex;
+	/*add card style here*/
+	align-items: center;
+	border: 0.5px solid lightgray;
+	border-radius: 5px;
+	justify-content: space-around;
+	padding: 12px 5px 12px 5px;
+	margin-top: 12px;
+}
+.savedTab:hover {
+	border: 0.5px dashed lightgray;
+	/*transition-delay: 200ms;*/
+}
+
+.siteDetails > span {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.siteDetails > div {
+	display: flex;
+	align-items: center;
+}
+
+.favContainer {
+	height: 24px;
+	width: 24px;
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+.favContainer > img {
+	height: 100%;
+	object-fit: contain;
+}
+
+.actionButtons > button {
+	border: none;
+	background: none;
+	border: 0.5px solid #fff;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+.actionButtons > button:hover {
+	border: 0.5px solid lightgray;
+	border-radius: 20%;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+.container > button {
+	border: none;
+	border-radius: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #7C0EBD;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	/*margin: 10px;*/
+	color: #fff;
+}
+
+
+.container > button:hover {
+	background-color: rgba(124, 14, 189, 0.7);
+	transition-duration: 200ms;
+}

@@ -1,6 +1,7 @@
-# Tabby Build Browser Extension
-
-![Tabby Build Logo](https://res.cloudinary.com/djlxfcael/image/upload/v1692896396/tabby-logo_cyqiq3.png)
+<div align="center">
+  <img src="https://res.cloudinary.com/djlxfcael/image/upload/v1692896396/tabby-logo_cyqiq3.png" alt="Tabby Build Logo" width="200">
+  <h1>Tabby Build Browser Extension</h1>
+</div>
 
 This browser extension is developed using the powerful combination of Plasmo and React, aiming to enhance your browsing experience with innovative features.
 

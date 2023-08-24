@@ -13,4 +13,4 @@ This browser extension is developed using the powerful combination of Plasmo and
 
 ## Contribution
 
-I welcome contributions from the community to make Tabby Build even better. Feel free to submit pull requests and 
+I welcome contributions from the community to make Tabby Build even better. Feel free to submit pull requests
